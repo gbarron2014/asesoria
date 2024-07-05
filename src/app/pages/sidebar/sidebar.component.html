@@ -1,0 +1,14 @@
+<p-sidebar [(visible)]="sidebarVisible1" position="left">
+    <!-- sidebar.component.html -->
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/about">About</a></li>
+                <li><a routerLink="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+</p-sidebar>
+
+<p-button type="button" class="mr-2" (click)="sidebarVisible1 = true" icon="pi pi-arrow-right" />
